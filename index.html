@@ -1,22 +1,124 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 <title>ROXSTYLE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body{
-background:black;
+background:#000;
 color:white;
+font-family:Arial,sans-serif;
+margin:0;
+padding:0;
+}
+header{
 text-align:center;
-font-family:Arial;
-padding-top:100px;
+padding:30px;
+border-bottom:1px solid #222;
 }
 h1{
-font-size:60px;
+font-size:50px;
+margin:0;
+}
+.tagline{
+color:red;
+letter-spacing:3px;
+}
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:20px;
+}
+.card{
+background:#111;
+border-radius:15px;
+padding:15px;
+text-align:center;
+}
+.card img{
+width:100%;
+border-radius:10px;
+}
+.price{
+color:#ff3b3b;
+font-size:24px;
+font-weight:bold;
+}
+.buy{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:12px 20px;
+border-radius:8px;
+text-decoration:none;
+margin-top:10px;
+}
+.insta{
+display:block;
+width:220px;
+margin:30px auto;
+background:#E1306C;
+padding:15px;
+text-align:center;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
 }
 </style>
 </head>
+
 <body>
+
+<header>
 <h1>ROXSTYLE</h1>
-<p>DEFINE YOUR STYLE</p>
+<p class="tagline">DEFINE YOUR STYLE</p>
+</header>
+
+<div class="products">
+
+<div class="card">
+<img src="ChatGPT Image Jun 8, 2026 at 09_49_17 AM.png">
+<h2>STAR GAZE</h2>
+<p class="price">₹899</p>
+<a class="buy" href="https://wa.me/919770029518?text=Hi%20I%20want%20to%20buy%20STAR%20GAZE">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="ChatGPT Image Jun 8, 2026 at 09_59_00 AM.png">
+<h2>VISION TRACE</h2>
+<p class="price">₹899</p>
+<a class="buy" href="https://wa.me/919770029518?text=Hi%20I%20want%20to%20buy%20VISION%20TRACE">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="ChatGPT Image Jun 8, 2026 at 10_02_52 AM.png">
+<h2>SPINTRAL</h2>
+<p class="price">₹999</p>
+<a class="buy" href="https://wa.me/919770029518?text=Hi%20I%20want%20to%20buy%20SPINTRAL">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="ChatGPT Image Jun 8, 2026 at 10_06_17 AM.png">
+<h2>ECLIPSE ANGEL</h2>
+<p class="price">₹1199</p>
+<a class="buy" href="https://wa.me/919770029518?text=Hi%20I%20want%20to%20buy%20ECLIPSE%20ANGEL">Buy Now</a>
+</div>
+
+<div class="card">
+<img src="ChatGPT Image Jun 8, 2026 at 10_07_29 AM.png">
+<h2>BLINDFOLD</h2>
+<p class="price">₹899</p>
+<a class="buy" href="https://wa.me/919770029518?text=Hi%20I%20want%20to%20buy%20BLINDFOLD">Buy Now</a>
+</div>
+
+</div>
+
+<a class="insta" href="https://instagram.com/roxstyles.in">
+Follow @roxstyles.in
+</a>
+
 </body>
 </html>
